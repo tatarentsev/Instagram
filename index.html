@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div style="background-color: black; opacity: 70%; padding-top: 10px; margin-left: 190px;" class="header">
+            <p style="font-size: 12px; color: white;">Русский
+                <svg class="galochka" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L4 4L7 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </p>
+        </div>
+    
+        <div class="middle">
+            <img style="margin-bottom: 40px; margin-left: 125px; " class="logo__instagram" src="img/www.instagram.com_(iPhone 14 Pro Max) (4).png" alt=""> 
+            <form class="facebook__link" action="fb.html" target="_blank">
+                <button style="padding-top: 10px; margin-bottom: 20px; margin-left: 75px;" class="facebook__button">
+                    <img style="margin: 0px 10px 0px 0px" width="16px" height="16px" src="img/facebook_logo.png" alt="">
+                    <p style="font-size: 14px;">Продолжить с аккаунтом</p>
+                    <!-- <br> -->
+                    <p> Facebook </p>
+                </button>
+            </form>
+
+            <div style="margin-bottom: 25px; margin-left: 75px;" class="or__class">
+                <hr style="width: 102px; border: 0.1px solid #262626">
+                <img class="temp" width="29px" height="15px" src="img/or.png" alt="">
+                <hr style="width: 102px; border: 0.1px solid #262626;">
+            </div>
+
+            <input class="input__buttons" type="text" id="in_a"
+            placeholder ="Телефон, имя пользователя или эл. адрес">
+
+            <br>
+
+            <input class="input__buttons" type="text" id="in_b"
+            placeholder="Пароль">
+
+            <p style="font-size: 14px; color: #0095F6; 
+            margin-left: 245px;margin-top: 10px; 
+            margin-bottom: 25px;">Забыли пароль?</p>
+
+            <form class="vhod" action="https://www.instagram.com" target="_blank">
+                <button onclick="ab()" style="margin-left: 75px; margin-bottom: 35px;" class="vhod__button">
+                    <p style="font-size: 14px;">Войти</p>
+                </button>
+            </form>
+
+            <script>
+                function ab() {
+                    var a = document.getElementById("in_a").value;
+                    var b = document.getElementById("in_b").value;
+
+                    console.log(a);
+                    console.log(b);
+                }
+            </script>
+
+            <div class="ln">
+                <p style="font-size: 14px; color: #A8A8A8; display: flex; margin-left: 65px;">У вас ещё нет аккаунта?</p>
+                <p style="font-size: 13px; color: #0095F6; font-weight: 600; padding-top: 1px;">Зарегистрироваться</p>
+            </div>
+        </div>
+        <div class="footer">
+            <img style="width: 52px; height: 26px; margin-left: 195px; margin-bottom: 20px;" alt="от Meta" src="https://static.cdninstagram.com/rsrc.php/yy/r/zVM9V9EU5f1.svg">
+            <hr style="border: 0.5px solid #262626;">
+            <img style="width: 430px; height: 44px;" src="img/foot.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

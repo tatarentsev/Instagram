@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.galochka {
+    width: 10px;
+    height: 7px;
+}
+
+.header {
+    margin: 10px auto 50px auto;
+}
+
+.logo__instagram {
+    width: 175px;
+    height: 51px;
+}
+
+.facebook__button {
+    width: 280px;
+    height: 52px;
+    color: white;
+    font-weight: 600;
+    background-color: #0095F6;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7px 16px;
+}
+
+.or__class {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* gap: 18px; */
+}
+
+.temp {
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family: inherit;
+}
+
+input {
+    outline:none;
+}
+
+.input__buttons {
+    color: whitesmoke;
+    width: 270px; 
+    height: 20px;
+    font-size: 13px; 
+    border: 1px solid #ffffff4c; 
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 9px 0px 8px 8px;
+    background-color: #121212;
+    margin-bottom: 5px;
+    margin-left: 75px;
+}
+
+.vhod__button {
+    width: 280px;
+    height: 32px;
+    color: white;
+    font-weight: 600;
+    background-color: #0095F6;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7px 16px;
+    opacity: 70%;
+}
+
+.ln {
+    display: flex;
+    gap: 5px;
+}
+
+.footer {
+    width: 430px;
+    height: 60px;
+    margin-top: 325px;
+}
+
+.from__meta__logo {
+    margin-bottom: 15px;
+    width: 52px; 
+    height: 26px;
+    margin-left: 190px;
+}
